@@ -19,8 +19,8 @@ Anyone who plays adult games/VNs on Android and is tired of juggling browser tab
 
 ## Features
 
-- **Native browsing for free sources** — RyuuGames, F95Zone, LewdCorner, Kimochi, FapForFun, and Adult Games Collector are scraped into a real, scrollable app UI (catalog, filters, tags, detail pages) instead of an embedded mobile web browser.
-- **Encrypted credentials, stored on-device only** — optional login for sites that unlock more content when signed in (e.g. F95Zone, LewdCorner, FapForFun), and for premium file-host accounts (e.g. Rapidgator) so downloads skip free-tier wait timers and captchas. Nothing leaves your device except the login requests themselves.
+- **Native browsing for free sources** — Multiple sources are getted into a real, scrollable app UI (catalog, filters, tags, detail pages) instead of an embedded mobile web browser.
+- **Encrypted credentials, stored on-device only** — optional login for sites that unlock more content when signed in, and for premium file-host accounts so downloads skip free-tier wait timers and captchas. Nothing leaves your device except the login requests themselves.
 - **One download manager, many hosts** — automatic link resolution across MediaFire, GoFile, PixelDrain, Google Drive, Rapidgator, and more, with resumable (Range-request) transfers and a real progress/speed display. Hosts that require solving a real captcha or clicking through an ad page fall back to an in-app browser view — with built-in ad-blocking and popup/click-hijack protection — instead of dumping you into your phone's default browser.
 - **Automatic archive handling** — ZIP/RAR/7z extraction, including password-protected and RAR5 archives, with correct handling of non-UTF-8 (Shift-JIS) filenames common in Japanese-authored releases.
 - **Multi-engine game runner** — RPGMaker MV/MZ and TyranoScript run through an in-app WebView-based host; Ren'Py games run through a native Android Ren'Py runtime. An experimental PC/Windows-game runner (Wine + a CPU translation layer) is also included for compatible titles.
