@@ -42,7 +42,7 @@ Not sure which your phone is? If the `arm64-v8a` build installs, use it — it's
 
 ## Status
 
-This is an **alpha** (`0.71.0-alpha`). Expect bugs, rough edges, and features that are still placeholders (the Kirikiri engine runner, for one, is a stub — not yet functional). Debug-signed builds for now; a proper release-signed pipeline comes later.
+This is an **alpha** (`0.75.0-alpha`). Expect bugs, rough edges, and experimental engine compatibility paths. Debug-signed builds for now; a proper release-signed pipeline comes later.
 
 ## Planned implementations
 
