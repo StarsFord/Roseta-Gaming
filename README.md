@@ -36,7 +36,7 @@ Anyone who plays adult games/VNs on Android and is tired of juggling browser tab
 - Added cover-card carousels for “More from…”, in-app folder creation and a choice between Rosetta's internal browser and the Android system picker.
 - Added transactional Ren'Py/RPG Maker patch and mod management for eligible forum-source games.
 - Added Ren'Py 7.8.7 support with a live state editor, encrypted Godot PCK compatibility, portable Electron/NSIS extraction and non-destructive WOLF RPG/GuruGuru compatibility.
-- Improved Cloudflare recovery, F95Zone/LewdZone developer metadata, developer social actions and automatic game-version extraction from downloads.
+- Improved Cloudflare recovery, XenForo/Blog sources developer metadata, developer social actions and automatic game-version extraction from downloads.
 - Fixed dark-mode colors and updated the About screen with the official [Stars Translations](https://www.stars-translations.com/) and [Telegram](https://t.me/nsfwhgames) links.
 
 See the [0.82.0-alpha release notes](../../releases/tag/v0.82.0-alpha) for the complete change list, validation results and downloads. This release includes source changes from [`8901284`](https://github.com/StarsFord/StarsRemote/commit/8901284ad8f6bd7cb7755242907506b40aeaf254) and [`7a754ea`](https://github.com/StarsFord/StarsRemote/commit/7a754ea83922dabf31de0bd1751242e1dce2c8cc).
