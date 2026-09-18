@@ -27,19 +27,17 @@ Anyone who plays adult games/VNs on Android and is tired of juggling browser tab
 - **A real library** — cover art, categories, source and engine filters, play statistics, version metadata, developer collections and patch/mod management instead of a flat folder of `.zip` files.
 - **Torrent/magnet awareness** — if a source's only distribution method is a `.torrent` or magnet link, Rosetta hands it off to your own BitTorrent app rather than pretending to support it.
 
-## What's new in 0.82.0-alpha
+## What's new in 0.83.0-alpha
 
-- Added on more source with catalogs, search, pagination, tag browsing, details and galleries.
-- Made tag filtering transparent and user-controlled for every compatible source, with independent per-source settings and no hidden default filters.
-- Added compact source search/tag dialogs, reload-current-page and visited-page navigation.
-- Added game versions, Source filtering, total play time, most-played game, most-visited source and last-visited source to the library experience.
-- Added cover-card carousels for “More from…”, in-app folder creation and a choice between Rosetta's internal browser and the Android system picker.
-- Added transactional Ren'Py/RPG Maker patch and mod management for eligible forum-source games.
-- Added Ren'Py 7.8.7 support with a live state editor, encrypted Godot PCK compatibility, portable Electron/NSIS extraction and non-destructive WOLF RPG/GuruGuru compatibility.
-- Improved Cloudflare recovery, XenForo/Blog sources developer metadata, developer social actions and automatic game-version extraction from downloads.
-- Fixed dark-mode colors and updated the About screen with the official [Stars Translations](https://www.stars-translations.com/) and [Telegram](https://t.me/nsfwhgames) links.
+- Added automatic import and extraction for protected single-file H-Game18 packages.
+- Restored animated Live2D CGs and standing pictures in affected RPG Maker MV games, with additional encrypted/plain image and Canvas compatibility fixes.
+- Improved Ren'Py 8/Python 3 detection and added the official Live2D Cubism Core ARM64 runtime for compatible titles.
+- Fixed RGSS input handling, CAO Universal Mouse compatibility and Windows-only `Graphics::DL` high-resolution patches under mkxp-z.
+- Added safer Japanese legacy KiriKiri routing through the PC Runner, including locale, alias and plugin compatibility.
+- Repaired conflicting game-provided cheat integrations so Rosetta's own cheat module remains the canonical interface.
+- Preserved dashboard scroll position and added a [Patreon support link](https://www.patreon.com/c/StarsTranslations) for project maintenance.
 
-See the [0.82.0-alpha release notes](../../releases/tag/v0.82.0-alpha) for the complete change list, validation results and downloads. This release includes source changes from [`8901284`](https://github.com/StarsFord/StarsRemote/commit/8901284ad8f6bd7cb7755242907506b40aeaf254) and [`7a754ea`](https://github.com/StarsFord/StarsRemote/commit/7a754ea83922dabf31de0bd1751242e1dce2c8cc).
+See the [0.83.0-alpha release notes](../../releases/tag/v0.83.0-alpha) for the complete change list, validation results and downloads. This release includes source changes from [`c6d7521`](https://github.com/StarsFord/StarsRemote/commit/c6d7521586a396e6a86d0b4b71dd41fd9d952545) and [`15962a8`](https://github.com/StarsFord/StarsRemote/commit/15962a80b4e3f7fedc2d23307b2aa0f6280c5669).
 
 ## Installation
 
@@ -56,7 +54,7 @@ Not sure which your phone is? If the `arm64-v8a` build installs, use it — it's
 
 ## Status
 
-This is an **alpha** (`0.82.0-alpha`). Expect bugs, rough edges, and experimental engine compatibility paths. Debug-signed builds for now; a proper release-signed pipeline comes later.
+This is an **alpha** (`0.83.0-alpha`). Expect bugs, rough edges, and experimental engine compatibility paths. Debug-signed builds for now; a proper release-signed pipeline comes later.
 
 ## Planned implementations
 
