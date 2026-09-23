@@ -27,17 +27,17 @@ Anyone who plays adult games/VNs on Android and is tired of juggling browser tab
 - **A real library** — cover art, categories, source and engine filters, play statistics, version metadata, developer collections and patch/mod management instead of a flat folder of `.zip` files.
 - **Torrent/magnet awareness** — if a source's only distribution method is a `.torrent` or magnet link, Rosetta hands it off to your own BitTorrent app rather than pretending to support it.
 
-## What's new in 0.83.0-alpha
+## What's new in 0.85.0-alpha
 
-- Added automatic import and extraction for protected single-file H-Game18 packages.
-- Restored animated Live2D CGs and standing pictures in affected RPG Maker MV games, with additional encrypted/plain image and Canvas compatibility fixes.
-- Improved Ren'Py 8/Python 3 detection and added the official Live2D Cubism Core ARM64 runtime for compatible titles.
-- Fixed RGSS input handling, CAO Universal Mouse compatibility and Windows-only `Graphics::DL` high-resolution patches under mkxp-z.
-- Added safer Japanese legacy KiriKiri routing through the PC Runner, including locale, alias and plugin compatibility.
-- Repaired conflicting game-provided cheat integrations so Rosetta's own cheat module remains the canonical interface.
-- Preserved dashboard scroll position and added a [Patreon support link](https://www.patreon.com/c/StarsTranslations) for project maintenance.
+- Added the new **Fap-Games** source and repaired navigation, galleries, filtering and background verification across FapNation and XenForo-based sources.
+- Added a semantic XenForo comment reader with quotes, links, attachments and indexed page navigation.
+- Expanded the Godot companion through the 4.7 runtime line and improved direct compatibility for Windows exports with external PCK data.
+- Added targeted RPG Maker compatibility for desktop-only Koffi/Steam plugins, malformed plugin parameters, mixed-engine packages and relocated animation assets.
+- Kept RGSS titles fullscreen when desktop scripts try to force window scaling or centering.
+- Improved Ren'Py exception capture and compatibility isolation, plus a 30-second recovery save reserved at page 1, slot 4 without replacing engine autosaves.
+- Restored the previously visited source page after authentication instead of returning users to the first catalog page.
 
-See the [0.83.0-alpha release notes](../../releases/tag/v0.83.0-alpha) for the complete change list, validation results and downloads. This release includes source changes from [`c6d7521`](https://github.com/StarsFord/StarsRemote/commit/c6d7521586a396e6a86d0b4b71dd41fd9d952545) and [`15962a8`](https://github.com/StarsFord/StarsRemote/commit/15962a80b4e3f7fedc2d23307b2aa0f6280c5669).
+See the [0.85.0-alpha release notes](../../releases/tag/v0.85.0-alpha) for the complete change list, validation results and downloads. This release contains the source range from [`15962a8`](https://github.com/StarsFord/StarsRemote/commit/15962a80b4e3f7fedc2d23307b2aa0f6280c5669) through [`a33049a`](https://github.com/StarsFord/StarsRemote/commit/a33049a).
 
 ## Installation
 
@@ -54,7 +54,7 @@ Not sure which your phone is? If the `arm64-v8a` build installs, use it — it's
 
 ## Status
 
-This is an **alpha** (`0.83.0-alpha`). Expect bugs, rough edges, and experimental engine compatibility paths. Debug-signed builds for now; a proper release-signed pipeline comes later.
+This is an **alpha** (`0.85.0-alpha`). Expect bugs, rough edges, and experimental engine compatibility paths. Debug-signed builds for now; a proper release-signed pipeline comes later.
 
 ## Planned implementations
 
