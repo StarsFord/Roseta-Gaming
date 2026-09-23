@@ -29,7 +29,7 @@ Anyone who plays adult games/VNs on Android and is tired of juggling browser tab
 
 ## What's new in 0.85.0-alpha
 
-- Added the new **Fap-Games** source and repaired navigation, galleries, filtering and background verification across FapNation and XenForo-based sources.
+- Added new  source and repaired navigation, galleries, filtering and background verification across XenForo-based sources.
 - Added a semantic XenForo comment reader with quotes, links, attachments and indexed page navigation.
 - Expanded the Godot companion through the 4.7 runtime line and improved direct compatibility for Windows exports with external PCK data.
 - Added targeted RPG Maker compatibility for desktop-only Koffi/Steam plugins, malformed plugin parameters, mixed-engine packages and relocated animation assets.
