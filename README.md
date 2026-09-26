@@ -2,9 +2,6 @@
 
 **A native Android library manager, downloader, and multi-engine runner for games and visual novels, with configurable sources and content preferences.**
 
-> ### 🔞 18+ Content Warning
-> Rosetta Gaming includes optional sources for **adult (NSFW) games and visual novels**, alongside general game catalogs. Source and content preferences let you choose what appears. It does not host or distribute any content itself — it's a client that talks to existing sites and file hosts. **You must be 18 or older (or the age of majority in your jurisdiction) to use this app.** By downloading or running it, you confirm that you meet that requirement and that this kind of content is legal for you to access where you live.
-
 This repository hosts **pre-built APKs and release notes** for public testing. The application's source code lives in a separate private repository during this alpha phase.
 
 ---
