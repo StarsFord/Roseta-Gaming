@@ -24,20 +24,20 @@ Anyone who plays games or visual novels on Android and is tired of juggling brow
 - **A real library** — cover art, categories, source and engine filters, play statistics, version metadata, developer collections and patch/mod management instead of a flat folder of `.zip` files.
 - **Torrent/magnet awareness** — if a source's only distribution method is a `.torrent` or magnet link, Rosetta hands it off to your own BitTorrent app rather than pretending to support it.
 
-## What's new in 0.89.0-alpha
+## What's new in 0.90.0-alpha
 
-- Native **GOG** catalog, account library, installer downloads and installation; **Steam** catalog and account-library integration. Steam depot downloads remain planned.
-- Local **Flash** games through bundled Ruffle, with video compatibility for selected formats.
-- **Kimochi** categories (including English and Japanese), five sort modes, final-page navigation, older-post covers and game tags.
-- Better **RPG Maker MV/MZ** detection for Electron exports and a fix for oversized MV textures rendering as black squares.
-- Experimental **Godot 4.7 Windows GDExtensions on ARM64** through FEXCore. SOTDQ reached the menu and user-validated Spine CG/prologue scenes; this does not establish full-game compatibility.
-- Shared-storage installation recovery, Ren'Py compatibility fixes and refreshed launcher/loading artwork.
+- Native **DLSite** and **DMM/FANZA** catalogs, details and authenticated browsing, plus the completed **Fuwanovel** source with forum sign-in and native spoiler/dropdown rendering.
+- A dedicated **VNDB Catalogue** with compact and advanced filters, pagination, tags, screenshots and native VNDB links from every source. API throttling can fall back to VNDB's public pages.
+- **RPG Maker** packed-game detection and extraction, plus live dialogue/choice translation with protected runtime tokens and a per-game cache.
+- **HTML/browser games** now run through Rosetta's internal HTTPS server, avoiding local-file fetch failures.
+- More robust **Ren'Py**, TyranoScript/Electron, ONScripter and Kirikiri compatibility, including Ren'Py viewport orientation controls.
+- Download/extraction fixes for Japanese filename encodings and additional file-host flows.
 
-See the [0.89.0-alpha release](../../releases/tag/v0.89.0-alpha) for downloads and validation details. Source range: [`149e216...60ad17f`](https://github.com/StarsFord/StarsRemote/compare/149e216565b81a09ba5e11325255fe001772a480...60ad17f91e6c8c9078f2b46027c3e01d10a0af82).
+See the [0.90.0-alpha release](../../releases/tag/v0.90.0-alpha) for downloads and validation details. Source range: [`60ad17f...4ccebb3`](https://github.com/StarsFord/StarsRemote/compare/60ad17f91e6c8c9078f2b46027c3e01d10a0af82...4ccebb3499587901d2d659d00ef8a0e577cc9551).
 
 ## Installation
 
-1. Download the APK matching your device's architecture from the [0.89.0-alpha release](../../releases/tag/v0.89.0-alpha).
+1. Download the APK matching your device's architecture from the [0.90.0-alpha release](../../releases/tag/v0.90.0-alpha).
 2. Enable "Install unknown apps" for your browser/file manager if prompted (this is a normal Android requirement for anything installed outside the Play Store).
 3. Install and open.
 
@@ -52,7 +52,7 @@ Not sure which your phone is? If the `arm64-v8a` build installs, use it — it's
 
 ## Status
 
-This is an **alpha** (`0.89.0-alpha`). Expect bugs, rough edges, and experimental engine compatibility paths. Debug-signed builds for now; a proper release-signed pipeline comes later.
+This is an **alpha** (`0.90.0-alpha`). Expect bugs, rough edges, and experimental engine compatibility paths. Debug-signed builds for now; a proper release-signed pipeline comes later.
 
 ## Planned implementations
 
