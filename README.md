@@ -24,20 +24,18 @@ Anyone who plays games or visual novels on Android and is tired of juggling brow
 - **A real library** — cover art, categories, source and engine filters, play statistics, version metadata, developer collections and patch/mod management instead of a flat folder of `.zip` files.
 - **Torrent/magnet awareness** — if a source's only distribution method is a `.torrent` or magnet link, Rosetta hands it off to your own BitTorrent app rather than pretending to support it.
 
-## What's new in 0.90.0-alpha
+## What's new in 0.91.0-alpha
 
-- Native **DLSite** and **DMM/FANZA** catalogs, details and authenticated browsing, plus the completed **Fuwanovel** source with forum sign-in and native spoiler/dropdown rendering.
-- A dedicated **VNDB Catalogue** with compact and advanced filters, pagination, tags, screenshots and native VNDB links from every source. API throttling can fall back to VNDB's public pages.
-- **RPG Maker** packed-game detection and extraction, plus live dialogue/choice translation with protected runtime tokens and a per-game cache.
-- **HTML/browser games** now run through Rosetta's internal HTTPS server, avoiding local-file fetch failures.
-- More robust **Ren'Py**, TyranoScript/Electron, ONScripter and Kirikiri compatibility, including Ren'Py viewport orientation controls.
-- Download/extraction fixes for Japanese filename encodings and additional file-host flows.
+- New native **xGames** integration and more resilient **LewdCorner**, **F95Zone**, **RyuuGames** and **SVSComics** catalogs, including protected-content recovery, structured game descriptions, related-game navigation and searchable tag catalogs.
+- Portable backup/restore for source configuration and preserved game metadata when downloaded titles are copied into the library.
+- **TyranoScript/Electron** compatibility for unpacked exports, the `studio_api` bridge and deep `nextOrder` chains, plus an in-game drawer that surfaces JavaScript runtime errors.
+- **PC Runner** now bundles the complete Visual C++ 2015-2022 runtime DLL set and adds offline Steam setup for Unreal titles, configurable DXVK and launch arguments, improved virtual controls/focus recovery, persistent shader caches and cleaner Wine/media shutdown.
 
-See the [0.90.0-alpha release](../../releases/tag/v0.90.0-alpha) for downloads and validation details. Source range: [`60ad17f...4ccebb3`](https://github.com/StarsFord/StarsRemote/compare/60ad17f91e6c8c9078f2b46027c3e01d10a0af82...4ccebb3499587901d2d659d00ef8a0e577cc9551).
+See the [0.91.0-alpha release](../../releases/tag/v0.91.0-alpha) for downloads and validation details. Source range: [`4ccebb3...05c492e`](https://github.com/StarsFord/StarsRemote/compare/4ccebb3499587901d2d659d00ef8a0e577cc9551...05c492e269a0959d6e18a2404f4ce84904958cfe).
 
 ## Installation
 
-1. Download the APK matching your device's architecture from the [0.90.0-alpha release](../../releases/tag/v0.90.0-alpha).
+1. Download the APK matching your device's architecture from the [0.91.0-alpha release](../../releases/tag/v0.91.0-alpha).
 2. Enable "Install unknown apps" for your browser/file manager if prompted (this is a normal Android requirement for anything installed outside the Play Store).
 3. Install and open.
 
@@ -52,7 +50,7 @@ Not sure which your phone is? If the `arm64-v8a` build installs, use it — it's
 
 ## Status
 
-This is an **alpha** (`0.90.0-alpha`). Expect bugs, rough edges, and experimental engine compatibility paths. Debug-signed builds for now; a proper release-signed pipeline comes later.
+This is an **alpha** (`0.91.0-alpha`). Expect bugs, rough edges, and experimental engine compatibility paths. Debug-signed builds for now; a proper release-signed pipeline comes later.
 
 ## Planned implementations
 
