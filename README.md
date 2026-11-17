@@ -24,18 +24,19 @@ Anyone who plays games or visual novels on Android and is tired of juggling brow
 - **A real library** — cover art, categories, source and engine filters, play statistics, version metadata, developer collections and patch/mod management instead of a flat folder of `.zip` files.
 - **Torrent/magnet awareness** — if a source's only distribution method is a `.torrent` or magnet link, Rosetta hands it off to your own BitTorrent app rather than pretending to support it.
 
-## What's new in 0.91.0-alpha
+## What's new in 0.93.0-alpha
 
-- New native **xGames** integration and more resilient **LewdCorner**, **F95Zone**, **RyuuGames** and **SVSComics** catalogs, including protected-content recovery, structured game descriptions, related-game navigation and searchable tag catalogs.
-- Portable backup/restore for source configuration and preserved game metadata when downloaded titles are copied into the library.
-- **TyranoScript/Electron** compatibility for unpacked exports, the `studio_api` bridge and deep `nextOrder` chains, plus an in-game drawer that surfaces JavaScript runtime errors.
-- **PC Runner** now bundles the complete Visual C++ 2015-2022 runtime DLL set and adds offline Steam setup for Unreal titles, configurable DXVK and launch arguments, improved virtual controls/focus recovery, persistent shader caches and cleaner Wine/media shutdown.
+- **Per-game save backups** now bridge Rosetta with the Godot and PC companions, bringing Godot, Unity and Unreal saves into the same backup flow as directly hosted engines.
+- The ARM64 app now includes a **Ren'Py 8.2.1/Python 3.9 compatibility runtime** alongside Ren'Py 8.5.3, expanding support for games that ship protected `_glcache` extensions.
+- **Godot compatibility** now covers more Godot 3.5 loose-resource and Godot 4.7 exports, with an offline GodotSteam fallback, faster executable discovery, improved controls and fewer launch stalls.
+- **RPG Maker/RGSS, Unity, Electron, NW.js, TyranoScript and HTML games** receive targeted rendering, media, script and orientation fixes.
+- Native **itch.io** and authenticated **Patreon** browsing join substantial search, download, gallery and navigation fixes across RyuuGames, LewdPub, LewdLoad, LustGames, XenForo sources and VNDB.
 
-See the [0.91.0-alpha release](../../releases/tag/v0.91.0-alpha) for downloads and validation details. Source range: [`4ccebb3...05c492e`](https://github.com/StarsFord/StarsRemote/compare/4ccebb3499587901d2d659d00ef8a0e577cc9551...05c492e269a0959d6e18a2404f4ce84904958cfe).
+See the [0.93.0-alpha release](../../releases/tag/v0.93.0-alpha) for downloads and validation details. Source range: [`55029ca...d4d887b`](https://github.com/StarsFord/StarsRemote/compare/55029ca64f5c1ea490fd50415f9c17be8017d9ec...d4d887b2bc06afcbdf94aba3b7832e086e9641ac).
 
 ## Installation
 
-1. Download the APK matching your device's architecture from the [0.91.0-alpha release](../../releases/tag/v0.91.0-alpha).
+1. Download the APK matching your device's architecture from the [0.93.0-alpha release](../../releases/tag/v0.93.0-alpha).
 2. Enable "Install unknown apps" for your browser/file manager if prompted (this is a normal Android requirement for anything installed outside the Play Store).
 3. Install and open.
 
@@ -50,7 +51,7 @@ Not sure which your phone is? If the `arm64-v8a` build installs, use it — it's
 
 ## Status
 
-This is an **alpha** (`0.91.0-alpha`). Expect bugs, rough edges, and experimental engine compatibility paths. Debug-signed builds for now; a proper release-signed pipeline comes later.
+This is an **alpha** (`0.93.0-alpha`). Expect bugs, rough edges, and experimental engine compatibility paths. Debug-signed builds for now; a proper release-signed pipeline comes later.
 
 ## Planned implementations
 
