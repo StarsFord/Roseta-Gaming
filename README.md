@@ -24,19 +24,19 @@ Anyone who plays games or visual novels on Android and is tired of juggling brow
 - **A real library** — cover art, categories, source and engine filters, play statistics, version metadata, developer collections and patch/mod management instead of a flat folder of `.zip` files.
 - **Torrent/magnet awareness** — if a source's only distribution method is a `.torrent` or magnet link, Rosetta hands it off to your own BitTorrent app rather than pretending to support it.
 
-## What's new in 0.93.0-alpha
+## What's new in 0.94.0-alpha
 
-- **Per-game save backups** now bridge Rosetta with the Godot and PC companions, bringing Godot, Unity and Unreal saves into the same backup flow as directly hosted engines.
-- The ARM64 app now includes a **Ren'Py 8.2.1/Python 3.9 compatibility runtime** alongside Ren'Py 8.5.3, expanding support for games that ship protected `_glcache` extensions.
-- **Godot compatibility** now covers more Godot 3.5 loose-resource and Godot 4.7 exports, with an offline GodotSteam fallback, faster executable discovery, improved controls and fewer launch stalls.
-- **RPG Maker/RGSS, Unity, Electron, NW.js, TyranoScript and HTML games** receive targeted rendering, media, script and orientation fixes.
-- Native **itch.io** and authenticated **Patreon** browsing join substantial search, download, gallery and navigation fixes across RyuuGames, LewdPub, LewdLoad, LustGames, XenForo sources and VNDB.
+- **RPG Maker, NW.js and Electron compatibility** now covers AuraMZ external-storage saves, `scrypt`, DCP-protected packages, more Forge/ASAR layouts and root-relative game resources.
+- **Kirikiri and Ren'Py** receive Orcsoft `checkAppId` support and Android font fallbacks for games that request Windows font paths.
+- **Godot** now detects Vulkan or GLES directly from `project.binary` and selects the matching renderer automatically.
+- **PC Runner** adds Arial-compatible fonts, Android CA certificates, network-state access, native browser routing and smoother immediate presentation.
+- The **virtual-control editor** is unified across the main app and Godot companion, while library search, RPG Maker download titles, patch search/rollback and itch.io/Patreon identity tracking are more reliable.
 
-See the [0.93.0-alpha release](../../releases/tag/v0.93.0-alpha) for downloads and validation details. Source range: [`55029ca...d4d887b`](https://github.com/StarsFord/StarsRemote/compare/55029ca64f5c1ea490fd50415f9c17be8017d9ec...d4d887b2bc06afcbdf94aba3b7832e086e9641ac).
+See the [0.94.0-alpha release](../../releases/tag/v0.94.0-alpha) for downloads and validation details. Source range: [`d4d887b...d5ccdbd`](https://github.com/StarsFord/StarsRemote/compare/d4d887b2bc06afcbdf94aba3b7832e086e9641ac...d5ccdbd4bdc02bc05a10c6d725846c0376a3fbfa).
 
 ## Installation
 
-1. Download the APK matching your device's architecture from the [0.93.0-alpha release](../../releases/tag/v0.93.0-alpha).
+1. Download the APK matching your device's architecture from the [0.94.0-alpha release](../../releases/tag/v0.94.0-alpha).
 2. Enable "Install unknown apps" for your browser/file manager if prompted (this is a normal Android requirement for anything installed outside the Play Store).
 3. Install and open.
 
@@ -51,7 +51,7 @@ Not sure which your phone is? If the `arm64-v8a` build installs, use it — it's
 
 ## Status
 
-This is an **alpha** (`0.93.0-alpha`). Expect bugs, rough edges, and experimental engine compatibility paths. Debug-signed builds for now; a proper release-signed pipeline comes later.
+This is an **alpha** (`0.94.0-alpha`). Expect bugs, rough edges, and experimental engine compatibility paths. Debug-signed builds for now; a proper release-signed pipeline comes later.
 
 ## Planned implementations
 
