@@ -24,19 +24,19 @@ Anyone who plays games or visual novels on Android and is tired of juggling brow
 - **A real library** — cover art, categories, source and engine filters, play statistics, version metadata, developer collections and patch/mod management instead of a flat folder of `.zip` files.
 - **Torrent/magnet awareness** — if a source's only distribution method is a `.torrent` or magnet link, Rosetta hands it off to your own BitTorrent app rather than pretending to support it.
 
-## What's new in 0.94.0-alpha
+## What's new in 0.94.5-alpha
 
-- **RPG Maker, NW.js and Electron compatibility** now covers AuraMZ external-storage saves, `scrypt`, DCP-protected packages, more Forge/ASAR layouts and root-relative game resources.
-- **Kirikiri and Ren'Py** receive Orcsoft `checkAppId` support and Android font fallbacks for games that request Windows font paths.
-- **Godot** now detects Vulkan or GLES directly from `project.binary` and selects the matching renderer automatically.
-- **PC Runner** adds Arial-compatible fonts, Android CA certificates, network-state access, native browser routing and smoother immediate presentation.
-- The **virtual-control editor** is unified across the main app and Godot companion, while library search, RPG Maker download titles, patch search/rollback and itch.io/Patreon identity tracking are more reliable.
+- **F95Zone** search now follows the current XenForo flow, watched content is available natively, and live thread prefixes/game tags are synchronized with the source UI.
+- The dashboard adds **Picks of the Day**, and featured cards now open their underlying games or source pages directly.
+- **GoFile and DataNodes downloads** handle blank/intermediate pages, JavaScript `fetch` handoffs and final CDN URLs more reliably.
+- The library adds a persistent **three-column card grid** for denser collections.
+- Developer names and source links persist with installed games; supported links route into Rosetta's native browser while external links retain their normal fallback.
 
-See the [0.94.0-alpha release](../../releases/tag/v0.94.0-alpha) for downloads and validation details. Source range: [`d4d887b...d5ccdbd`](https://github.com/StarsFord/StarsRemote/compare/d4d887b2bc06afcbdf94aba3b7832e086e9641ac...d5ccdbd4bdc02bc05a10c6d725846c0376a3fbfa).
+See the [0.94.5-alpha release](../../releases/tag/v0.94.5-alpha) for downloads and validation details. Source range: [`d5ccdbd...950cc88`](https://github.com/StarsFord/StarsRemote/compare/d5ccdbd4bdc02bc05a10c6d725846c0376a3fbfa...950cc889324e014c8ed3e82d581b94d15a4a5443).
 
 ## Installation
 
-1. Download the APK matching your device's architecture from the [0.94.0-alpha release](../../releases/tag/v0.94.0-alpha).
+1. Download the APK matching your device's architecture from the [0.94.5-alpha release](../../releases/tag/v0.94.5-alpha).
 2. Enable "Install unknown apps" for your browser/file manager if prompted (this is a normal Android requirement for anything installed outside the Play Store).
 3. Install and open.
 
@@ -51,7 +51,7 @@ Not sure which your phone is? If the `arm64-v8a` build installs, use it — it's
 
 ## Status
 
-This is an **alpha** (`0.94.0-alpha`). Expect bugs, rough edges, and experimental engine compatibility paths. Debug-signed builds for now; a proper release-signed pipeline comes later.
+This is an **alpha** (`0.94.5-alpha`). Expect bugs, rough edges, and experimental engine compatibility paths. Debug-signed builds for now; a proper release-signed pipeline comes later.
 
 ## Planned implementations
 
